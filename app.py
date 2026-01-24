@@ -28,7 +28,7 @@ if audio_file is not None:
     model_size = st.select_slider("Yapay Zeka Zeka Seviyesi (Yükseldikçe kalite artar, süre uzar)", options=["base", "small", "medium"], value="small")
 
     if st.button("🚀 Ver Coşguyu (Türkçe Odaklı)"):
-        with st.spinner(f'Yapay Zeka ({model_size} model) Bekle Kral Çözmüyom...'):
+        with st.spinner(f'Yapay Zeka ({model_size} model) Bekle Kral Çözümüyom...'):
             # Geçici kayıt
             with open("temp_audio.mp3", "wb") as f:
                 f.write(audio_file.read())
@@ -54,4 +54,5 @@ if audio_file is not None:
             st.download_button("📂 PDF Raporunu Al", open("rapor.pdf", "rb"), file_name="nurases_rapor.pdf")
 
 st.write("---")
+
 st.caption("Saygılarımla: Helena | Tony Stark") #

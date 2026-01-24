@@ -1,4 +1,4 @@
 streamlit
 openai-whisper
 fpdf
-setuptools-rust
+setuptools

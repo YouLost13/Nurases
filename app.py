@@ -10,7 +10,7 @@ st.set_page_config(page_title="NURASES v1.1", page_icon="🎙️", layout="wide"
 st.markdown("""
     <style>
     .main { background-color: #0e1117; color: white; }
-    .stButton>button { width: 100%; border-radius: 10px; background-color: #ff4b4b; color: white; font-weight: bold; }
+    .stButton>button { width: 100%; border-radius: 10px; background-color: #ffcbdb; color: white; font-weight: bold; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -56,3 +56,4 @@ if audio_file is not None:
 st.write("---")
 
 st.caption("Saygılarımla: Helena | Tony Stark") #
+
